@@ -16,6 +16,6 @@ when defined(emscripten):
   --os:
     linux
   --passC:
-    "-s WASM=1 -s NO_EXIT_RUNTIME=1 -s EXPORTED_RUNTIME_METHODS=ccall -O3 -s USE_SDL=2"
+    "-O3"
   --passL:
-    "-s WASM=1 -s NO_EXIT_RUNTIME=1 -s EXPORTED_RUNTIME_METHODS=ccall -O3 -s USE_SDL=2"
+    "-s WASM=1 -s NO_EXIT_RUNTIME=1 -s EXPORTED_RUNTIME_METHODS=ccall -s USE_SDL=2"
