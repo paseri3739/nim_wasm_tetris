@@ -1,4 +1,4 @@
-when defined(emscripten):
+when defined(emscripten): # Nim側のオプション
   --dynlibOverride:
     SDL2
   --gc:
@@ -15,6 +15,7 @@ when defined(emscripten):
     i386
   --os:
     linux
+    # emscripten側のオプション
   --passC:
     "-O3"
   --passL:
