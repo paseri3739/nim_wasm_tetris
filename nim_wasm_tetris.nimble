@@ -11,3 +11,4 @@ backend = "c"
 # Dependencies
 
 requires "nim >= 2.2.4"
+requires "sdl2 >= 2.0.5"
